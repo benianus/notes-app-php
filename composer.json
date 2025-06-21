@@ -1,0 +1,15 @@
+{
+  "name": "benianus/notes-app",
+  "authors": [
+    {
+      "name": "Mohamed BENIANE",
+      "email": "beniane39@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/"
+    }
+  }
+}

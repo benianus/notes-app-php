@@ -1,8 +1,10 @@
 <?php
 
+namespace Database;
+
+use PDO;
 class Database
 {
-
     public $connection;
     public function __construct()
     {

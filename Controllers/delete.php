@@ -1,10 +1,9 @@
 <?php 
-
-$connection = require __DIR__ ."/database.php";
+$connection = require __DIR__ . "/../database/database.php";
 $isDeleted = $connection->deleteNote($_POST['id']);
 
 if ($isDeleted) {
-    header('location: index.php');
+    redirect('/');
 }
 // echo "<pre>";
 // var_dump($_POST["id"]);
